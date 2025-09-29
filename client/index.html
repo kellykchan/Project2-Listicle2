@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Sip Guide</title>
+    <link rel="icon" type="image/x-icon" href="/boba.png">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="/scripts/header.js"></script>
+    <script defer src="/scripts/shops.js"></script>
+  </head>
+
+  <body>
+    <header></header>
+
+    <section class="search-section">
+      <input 
+        type="text" 
+        id="searchBox" 
+        placeholder="Search shops..." 
+        oninput="filterShops()"
+      />
+    </section>
+
+    <main id="main-content"></main>
+  </body>
+
+</html>
